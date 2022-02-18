@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+h4 {
+    font-weight: 800;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+
+body {
+    font-family: 'Outfit', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Font size (paragraph): 15px Family: Outfit
+Weights: 400, 700
+White: hsl(0, 0%, 100%)
+Light gray: hsl(212, 45%, 89%)
+Grayish blue: hsl(220, 15%, 55%)
+Dark blue: hsl(218, 44%, 22%) */

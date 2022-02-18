@@ -6,21 +6,6 @@ html, body {
     margin: 0;
 }
 
-h2 {
-    font-weight: 900;
-    font-size: 30px;
-    padding-top: 10px;
-}
-
-h4 {
-    font-weight: 800;
-}
-
-h5 {
-    font-size: 16px;
-    font-weight: 900;
-}
-
 p {
     font-size: 15px;
 }
@@ -32,6 +17,46 @@ body {
     -ms-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(204, 233, 253);
+}
+
+.container {
+    text-align: center;
+    width: 230px;
+    background-color: #fff;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.qr-code {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+main {
+    margin: auto;
+    width: 200px;
+}
+
+h4 {
+    
+    color: hsl(218, 44%, 22%);
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 12px;
+    padding: 0 10px 30px 10px;
+    margin-bottom: 0;
 }
 
 /* Font size (paragraph): 15px Family: Outfit
